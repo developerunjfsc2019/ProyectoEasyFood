@@ -3,10 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_inicio">
+    app:startDestination="@+id/nav_home">
 
     <fragment
-        android:id="@+id/nav_inicio"
+        android:id="@+id/nav_home"
         android:name="com.proyecto.easyfood.ui.inicio.InicioFragment"
         android:label="@string/menu_inicio" />
 
@@ -18,7 +18,7 @@
 
     <fragment
         android:id="@+id/nav_informeasistencia"
-        android:name="com.proyecto.easyfood.ui.informeasistencia.InformeAsistenciaFragment"
+        android:name="com.proyecto.easyfood.ui.informedeasistencia.InformeAsistenciaFragment"
         android:label="@string/menu_informeasistencia"
         tools:layout="@layout/fragment_informeasistencia" />
 

@@ -45,7 +45,7 @@ public class InicioEasyFood extends AppCompatActivity {
         // MenuEasyFood should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
 
-                R.id.nav_inicio, R.id.nav_menu, R.id.nav_informeasistencia,
+                R.id.nav_home, R.id.nav_menu, R.id.nav_informeasistencia,
                 R.id.nav_qr, R.id.nav_perfil, R.id.nav_reglamentointerno, R.id.nav_cerrarsesion)
                 .setDrawerLayout(drawer)
                 .build();
